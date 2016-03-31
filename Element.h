@@ -1,3 +1,6 @@
+#ifndef Element_H
+#define Element_H
+
 class Element
 {
 public:
@@ -8,3 +11,5 @@ protected:
 	int start_node;
 	int end_node;
 };
+
+#endif

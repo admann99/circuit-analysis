@@ -1,4 +1,8 @@
+#ifndef CurrentSource_H
+#define CurrentSource_H
+
 #include "Element.h"
+
 class CurrentSource: public Element
 {
 public:
@@ -11,3 +15,5 @@ private:
 	int end_node;
 	double current;
 };
+
+#endif

@@ -1,4 +1,8 @@
+#ifndef Resistor_H
+#define Resistor_H
+
 #include "Element.h"
+
 class Resistor: public Element
 {
 public:
@@ -8,3 +12,5 @@ public:
 private:
 	double resistance;
 };
+
+#endif

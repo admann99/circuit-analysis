@@ -1,4 +1,8 @@
+#ifndef PowerSource_H
+#define PowerSource_H
+
 #include "Element.h"
+
 class PowerSource: public Element
 {
 public:
@@ -7,3 +11,5 @@ public:
 private:
 	double voltage;
 };
+
+#endif
