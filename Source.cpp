@@ -5,9 +5,8 @@ mav78@pitt.edu, amm349@pitt.edu, njs55@pitt.edu
 SPICE Simulator
 */
 
-#include <stdlib.h>
-#include <time.h>
-#include <math.h>
+#include <stdlib>
+#include <cmath>
 #include <armadillo>
 
 #include "\Python32\include\Python.h"
@@ -25,3 +24,10 @@ int main(void) {
 
 }
 
+arma::vec linear_system_solver(arma::mat A, arma::vec x, arma::vec z)
+{
+	if (!arma::solve(x, A, z)) {
+		//handle error
+
+	}
+}
